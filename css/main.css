@@ -64,6 +64,28 @@ h1{
     text-align: center;
     margin: 15px;
 }
+
+/*update nav-link*/
+
+header .nav-item{
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+
 /*header*/
 
 /*services*/
