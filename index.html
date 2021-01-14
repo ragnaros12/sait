@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/po.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="heading clearfix">
+                <img src="./img/logo.png" alt="" class="test-0-logo">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="test-0-nav-1">акции</a>
+                        </li>
+                        <li>
+                            <a href="#" class="test-0-nav-2">поиск</a>
+                        </li>
+                        <li>
+                            <a href="#" class="test-0-nav-3">регистрация на рейс</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="title">
+                <div class="header_p">
+                    Приходи к нам
+                </div>
+                <h1>
+                    FlightPool
+                </h1>
+            </div>
+            <a href="#" class="button_header" >ролик о нас</a>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="title">
+                <h2>
+                    Почему стоит выбрать нас?
+                </h2>
+            </div>
+            <div class="services clearfix">
+                <div class="services_item">
+                    <img alt="" src="./img/icon1.png">
+                    <h3>по всему миру</h3>
+                    <div>мы доступны по всему миру</div>
+                </div>
+                <div class="services_item">
+                    <img alt="" src="./img/icon2.png">
+                    <h3>удобные сроки</h3>
+                    <div>рейсы проходят ежедневно</div>
+                </div>
+                <div class="services_item">
+                    <img alt="" src="./img/icon3.png">
+                    <h3>быстро</h3>
+                    <div>полеты проходят очень быстро</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="color_gray">
+            <div class="title">
+                <h2>найти билеты</h2>
+                <p>заполните форму,и вам ничего не будет, т. к. я ленивый))))</p>
+            </div>
+            <div class="form">
+                <input type="number" min="1" max="8" class="el1" placeholder="сколбко людей">
+                <ul>
+                    <li>
+                        <select class="el1">
+                            <option>смоленск</option>
+                            <option value="">еще куда то</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="date" class="el1">
+                    </li>
+                    <li>
+                        <select class="el1">
+                            <option>смоленск</option>
+                            <option value="">еще откуда то</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="date" class="el1">
+                    </li>
+                </ul>
+                <button class="button">тык)</button>
+            </div>
+        </div>
+    </section>
+    <section class="sell_container">
+        <script src="./js/main.js"></script>
+        <div class="container clearfix">
+            <div class="title">
+                <h2>
+                    акции
+                </h2>
+                <p>посмотрите акции доступные всем</p>
+            </div>
+            <div class="sell_struct">
+                <div class="str_left">
+                    <img alt="" src="./img/str.png" onclick="click_function()">
+                </div>
+                <div class="action">
+                    <img alt="" src="./img/promotion1.jpg" id="img" class="tag">
+                    <h3 id="h3">Returning and Changing Your Tickets</h3>
+                    <div id="div" class="text">The pandemic has changed many travelers’ plans, but we know that it will not last forever.
+                        Once all of this is over, we will continue exploring this world the way we used to.
+                        Special rules that have been developed for this challenging situation will help you cancel your trip
+                        or postpone it until later.</div>
+                </div>
+                <div class="str_left" onclick="click_function_res()">
+                    <img alt="" src="./img/str1.png">
+                </div>
+            </div>
+            <button class="button">подробнее
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="adds">
+                <div class="title">
+                    <h2>закрытые акции</h2>
+                    <p>Подпишись чтобы получать самые интересные предложения</p>
+                </div>
+                <ul>
+                    <li>
+                        <input type="email" class="inp1" placeholder="введите email">
+                    </li>
+                    <li>
+                        <button class="button">жми скорее =)</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="color_gray">
+        <div class="container clearfix">
+            <ul class="menu1 clearfix">
+                <li class="tel">
+                    <a href="tel:88001001010">telephone: 8 (800) 100-10-10</a>
+                </li>
+                <li>
+                    <a href="#">акции</a>
+                </li>
+                <li>
+                    <a href="#">поиск</a>
+                </li>
+                <li>
+                    <a href="#">регистрация на рейс</a>
+                </li>
+            </ul>
+            <div class="author">
+                разработчик - Артем Хлопов
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
