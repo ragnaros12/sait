@@ -151,10 +151,14 @@
 progress{
     margin-bottom: 30px;
 }
-.info_obertka input{
+.info_obertka input {
     margin-top: 20px;
     height: 30px;
     width: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 0 10px;
+    outline: none;
 }
 .gradient{
     margin-top: -100px;

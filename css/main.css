@@ -108,6 +108,7 @@ header a:hover::after{
 }
 .info_footer{
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 .tel a{
     color: rgb(255,146,0);
