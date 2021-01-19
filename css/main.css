@@ -107,9 +107,15 @@ header a:hover::after{
     color: rgb(0,144,214);
 }
 .info_footer{
-    padding-top: 30px;
-    padding-bottom: 100px;
+    margin: auto auto;
+    padding-bottom: 120px;
 }
 .tel a{
     color: rgb(255,146,0);
+}
+footer{
+    height: 300px;
+}
+.oo{
+    display: flex;
 }

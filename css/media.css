@@ -17,10 +17,39 @@
     .container{
         max-width: 540px;
     }
+    .links li{
+        font-size: 20px;
+    }
+    .tel a{
+        font-size: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-element{
+        margin-bottom: 25px;
+        margin-left: auto;
+    }
+}
+@media (max-width: 507px) {
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+
 }
 @media (max-width: 576px){
     .container{
         width: 100%;
+    }
+    .links li{
+        font-size: 15px;
+    }
+    .tel a{
+        font-size: 15px;
+    }
+    progress{
+        width: 300px;
     }
 }
 @media (max-width: 773px){
@@ -60,10 +89,5 @@
 @media (max-width: 1231px) {
     .links ul{
         column-count: 3;
-    }
-}
-@media (max-width: 600px){
-    nav{
-
     }
 }

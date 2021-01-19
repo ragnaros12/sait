@@ -13,7 +13,7 @@
 }
 .element p{
     font-size: 15px;
-    color: lightgray;
+    color: #151513;
 }
 .mr{
     padding-bottom: 80px;
@@ -33,7 +33,7 @@
     margin-bottom: 30px;
     border: none;
     border-radius: 10px 10px;
-    opacity: 60%;
+    opacity: 50%;
 }
 .background select{
     outline: none;
@@ -43,7 +43,7 @@
     margin-bottom: 30px;
     border: none;
     border-radius: 10px 10px;
-    opacity: 60%;
+    opacity: 50%;
 }
 .background{
     background: url("../img/bg1.jpg") center center / cover;
@@ -63,7 +63,7 @@
     margin-bottom: 160px;
 }
 .sell{
-    border: 1px solid black;
+    border: 1px solid #62a0ff;
     margin-top: 15px;
     text-align: center;
     width: 300px;
@@ -108,7 +108,7 @@
     margin-bottom: 30px;
     border: none;
     border-radius: 10px 10px;
-    opacity: 60%;
+    opacity: 50%;
     outline: none;
     padding: 0 10px;
     font-size: 20px;
@@ -145,20 +145,28 @@
 }
 .info_obertka{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
 }
 progress{
-    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 500px;
 }
 .info_obertka input {
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     height: 30px;
     width: 200px;
     border-radius: 20px;
     border: 1px solid black;
     padding: 0 10px;
     outline: none;
+}
+.info_obertka button{
+    margin-left: auto;
+    margin-right: auto;
 }
 .gradient{
     margin-top: -100px;
